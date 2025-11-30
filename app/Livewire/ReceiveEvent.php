@@ -12,7 +12,11 @@ class ReceiveEvent extends Component
         $this->message="Hello from the other component";
     }
 
+    #[On('resetComponent')]
 
+    public function resetComponent(){
+        $this->reset();
+    }
     public function render()
     {
 
