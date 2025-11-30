@@ -8,8 +8,8 @@ class ReceiveEvent extends Component
 {   public string $message='No message yet';
     #[On('messageSent')]
 
-    public function displayMessage(){
-        $this->message="Hello from the other component";
+    public function displayMessage($newMessage){
+        $this->message=$newMessage;
     }
 
     #[On('resetComponent')]

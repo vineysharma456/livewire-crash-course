@@ -6,8 +6,9 @@ use Livewire\Component;
 
 class SendEvent extends Component
 {
+    public string $message;
     public function sendMessage(){
-        $this->dispatch('messageSent');
+        $this->dispatch('messageSent',$this->message);
     }
     public function resetComponent(){
         $this->dispatch('resetComponent');
