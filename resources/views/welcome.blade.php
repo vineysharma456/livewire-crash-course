@@ -20,14 +20,22 @@
         @endif
     </head>
     <body >
-       <h1>asuhno</h1>
-
+       <h1>Livewire</h1>
+{{-- 
        <div>
                 Send Event : <livewire:send-event />
        </div>
        <div>
                 Receive Event : <livewire:receive-event />
-       </div>
-      
+       </div> --}}
+       {{-- <div>
+        <livewire:lazy />
+       </div> --}}
+       {{-- <nav>
+         <a href="/counter" wire:navigate>Counter</a>
+         <a href="/bird" wire:navigate>Bird</a>
+         <a href="/lazy" wire:navigate>Lazy</a>
+       </nav> --}}
+     
     </body>
 </html>
